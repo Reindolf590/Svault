@@ -26,30 +26,32 @@ const About = () => {
                 </div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-                <div className='shadow-lg bg-white px-6 py-8 rounded flex flex-col text-center items-center justify-center mt-12'>
-                    <div className='rounded-full w-20 bg-gray-200 hover:bg-green-300 flex items-center justify-center p-3'>
+                <div className='shadow-lg bg-white px-6 py-8 rounded flex flex-col text-center items-center 
+                justify-center mt-12 transition-transform transform hover:scale-110 hover:shadow-lg duration-300'>
+                    <div className='rounded-full w-20 bg-gray-200 hover:bg-green-300 flex items-center justify-center p-3 '>
                         <img src={about1} className='w-14 h-14 object-contain opacity-45' />
                     </div>
                     <h1 className='text-xl md:text-2xl font-bold text-green-500 py-3'>Eius provident</h1>
                     <p className='text-gray-600 text-sm md:text-base'>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
                 </div>
-                <div className='shadow-lg bg-white px-6 py-8 rounded flex flex-col items-center justify-center mt-12'>
+                <div className='shadow-lg bg-white px-6 py-8 rounded flex flex-col items-center justify-center 
+                mt-12 transition-transform transform hover:scale-110 hover:shadow-lg duration-300'>
                     <div className='rounded-full w-20 bg-gray-200 hover:bg-green-300 flex items-center justify-center p-3'>
                         <img src={command} className='w-14 h-14 object-contain opacity-45' />
                     </div>
                     <h1 className='text-2xl font-bold text-green-500 py-3'>Veniam omnis</h1>
                     <p className='text-gray-700'>Omnis perferendis molestias culpa sed. Recusandae quas possimus. Quod consequatur corrupti</p>
                 </div>
-
-
-                <div className='shadow-lg bg-white px-6 py-8 rounded flex flex-col items-center text-center'>
+                <div className='shadow-lg bg-white px-6 py-8 rounded flex flex-col items-center text-center 
+                transition-transform transform hover:scale-110 hover:shadow-lg duration-300'>
                     <div className='rounded-full w-20 h-20 bg-gray-200 hover:bg-green-300 flex items-center justify-center p-4'>
                         <img src={about2} className='w-16 h-16 object-contain  opacity-45' />
                     </div>
                     <h1 className='text-xl md:text-2xl font-bold text-green-500 py-2'>Eius provident</h1>
                     <p className='text-gray-600 text-sm md:text-base'>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
                 </div>
-                <div className='shadow-lg bg-white px-6 py-8 rounded flex flex-col items-center text-center'>
+                <div className='shadow-lg bg-white px-6 py-8 rounded flex flex-col items-center text-center 
+                transition-transform transform hover:scale-110 hover:shadow-lg duration-300'>
                     <div className='rounded-full w-20 h-20 bg-gray-200 hover:bg-green-300 items-center justify-center p-4'>
                         <img src={about4} className='w-14 h-14 object-contain opacity-45' />
                     </div>

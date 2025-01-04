@@ -14,7 +14,7 @@ const Hero = () => {
             transition={{ duration: 1.5 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className='container mx-auto max-w-screen-xl bg-gray-100 px-4 items-center py-8 sm:px-8 md:px-16 lg:px-32 '>
+            className='container mx-auto max-w-screen-xl bg-gray-100 px-4 items-center py-8 sm:px-8 md:px-16 lg:px-32 ' id='Hero'>
             <div className='flex flex-col md:flex-row items-center gap-8'>
                 <div className='pt-16 flex flex-col gap-6'>
                     <h1 className='font-bold text-4xl md:text-5xl lg:text-6xl'>SVault</h1>

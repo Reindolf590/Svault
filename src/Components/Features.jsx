@@ -10,7 +10,7 @@ const Features = () => {
             initial={{ opacity: 0, y: 200 }}
             transition={{ duration: 1.5 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }} 
+            viewport={{ once: true }}
             className=' bg-gray-100 items-center px-4 py-6 md:px-12 lg:px-20 w-full' id='Features'>
             <div className='flex flex-col items-center justify-between gap-2'>
                 <div className='rounded-full text-green-500 font-semibold px-6 py-2 bg-green-100 text-center'>Features</div>
@@ -21,8 +21,9 @@ const Features = () => {
                     <img src={image}
                         className='w-full max-w-xs md:max-w-sm lg:max-w-md object-contain' />
                 </div>
-                <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 w-full'>
-                    <div className='flex flex-col bg-white items-start gap-4 py-6 max-w-md px-2 rounded-lg shadow-md'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 w-full t'>
+                    <div className='flex flex-col bg-white items-start gap-4 py-6 max-w-md px-2 rounded-lg 
+                    shadow-md transition-transform transform hover:scale-110 hover:shadow-lg duration-300'>
                         <div className='flex gap-3 items-center '>
                             <div className='bg-gray-100 shadow-md p-2 hover:bg-green-400 cursor-pointer'>
                                 <img src={greentick} className='w-3 ' />
@@ -39,7 +40,8 @@ const Features = () => {
                                 mounted as a Virtual File System (VFS), ensuring flexibility in interaction.</p>
                         </div>
                     </div>
-                    <div className='flex flex-col bg-white items-start gap-4 py-6 max-w-md px-2 rounded-lg shadow-md'>
+                    <div className='flex flex-col bg-white items-start gap-4 py-6 max-w-md px-2 rounded-lg 
+                    shadow-md ransition-transform transform hover:scale-110 hover:shadow-lg duration-300'>
                         <div className='flex gap-2 items-center '>
                             <div className='bg-gray-100 shadow-md p-2 hover:bg-green-400 cursor-pointer'>
                                 <img src={greentick} className='w-3 ' />
@@ -52,7 +54,8 @@ const Features = () => {
                                 accessed remotely over the internet, enabling easy sharing and hosting of files.</p>
                         </div>
                     </div>
-                    <div className='flex flex-col bg-white items-start gap-4 py-6 max-w-lg px-2 rounded-lg shadow-md'>
+                    <div className='flex flex-col bg-white items-start gap-4 py-6 max-w-lg px-2 rounded-lg 
+                    shadow-md ransition-transform transform hover:scale-110 hover:shadow-lg duration-300'>
                         <div className='flex gap-2 items-center '>
                             <div className='bg-gray-100 shadow-md p-2 hover:bg-green-400 cursor-pointer'>
                                 <img src={greentick} className='w-3 ' />
@@ -65,7 +68,8 @@ const Features = () => {
                                 the Wormhole protocol, ensuring privacy and speed.</p>
                         </div>
                     </div>
-                    <div className='flex flex-col bg-white items-start gap-4 py-6 px-2 rounded-lg shadow-md max-w-md'>
+                    <div className='flex flex-col bg-white items-start gap-4 py-6 px-2 rounded-lg shadow-md 
+                    max-w-md ransition-transform transform hover:scale-110 hover:shadow-lg duration-300'>
                         <div className='flex gap-2 items-center '>
                             <div className='bg-gray-100 shadow-md p-1 hover:bg-green-400 cursor-pointer'>
                                 <img src={greentick} className='w-3 ' />
