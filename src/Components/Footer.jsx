@@ -29,8 +29,8 @@ const Footer = () => {
                     <p className='text-gray-500 text-sm md:text-base lg:text-lg leading-relaxed'>Subscribe to our newsletter and receive the latest news about our products and services!</p>
                     <div className='flex mt-4'>
                         <input type='email' 
-                        className='bg-green-100 focus:outline-none  border border-gray-400 px-4 py-2 rounded-l-md flex-1 '></input>
-                        <button className='bg-green-400 rounded-r-md py-2 px-6'>Subscribe</button>
+                        className='bg-green-100 focus:outline-none border border-gray-400 px-4 py-2 rounded-l-md flex-1 '></input>
+                        <button className='bg-green-400 rounded-r-md py-2 px-4 text-white text-base'>Subscribe</button>
                     </div>
                 </div>
             </div>
